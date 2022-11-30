@@ -1,0 +1,9 @@
+import hashlib
+
+
+str = 'Aa123456!'
+#str = input('Aa123456!')
+r = hashlib.sha256(str.encode())
+print(r.hexdigest())
+
+'''one way or another'''
